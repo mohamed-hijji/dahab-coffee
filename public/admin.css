@@ -1,0 +1,54 @@
+.admin-page { background:#fbf2e4; color:#302015; color-scheme:light; font-weight:700; }
+.admin-header { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:20px max(20px,calc((100vw - 1200px)/2)); border-bottom:1px solid #c7ac8b; font-size:13px; }
+.admin-header img { height:auto; }
+.admin-main { width:min(1200px,calc(100% - 40px)); margin:40px auto; }
+.admin-main h1 { font:700 clamp(28px,5vw,48px)/1.2 "DM Sans",sans-serif; letter-spacing:-.03em; }
+.admin-main p { font-size:14px; }
+.admin-actions { display:flex; gap:10px; flex-wrap:wrap; position:sticky; top:0; z-index:1; padding-block:14px; background:#fbf2e4; }
+.admin-page button { padding:10px 14px; border:1px solid #8d603a; background:#f7e8d2; color:#302015; font:700 13px "DM Sans",sans-serif; min-height:42px; }
+.admin-page button:disabled { opacity:.5; cursor:default; }
+.admin-page #save { background:#315b44; color:#fff8ec; border-color:#315b44; }
+.admin-section { padding:20px; border:1px solid #c9af8e; margin-block:22px; background:#fff8ed; }
+.section-fields { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-bottom:18px; }
+.admin-item { display:grid; grid-template-columns:1fr 1fr 115px; gap:14px; padding:12px 0; border-top:1px solid #dfccb3; }
+.admin-page label { display:grid; gap:5px; font-size:12px; }
+.admin-page input { width:100%; min-width:0; font:700 14px/1.5 "DM Sans","Noto Sans Arabic",sans-serif; padding:9px; background:#fff; color:#302015; border:1px solid #baa080; }
+.admin-page input[lang=ar] { font-family:"Noto Sans Arabic",sans-serif; }
+.admin-page input:focus-visible,.admin-page button:focus-visible { outline:2px solid #315b44; outline-offset:2px; }
+.add-item { margin-top:16px; }
+@media(max-width:650px) { .admin-item,.section-fields { grid-template-columns:1fr; } .admin-section { padding:14px; } .admin-header { gap:10px; } }
+.admin-item { grid-template-columns:1fr 1fr 115px; }
+.admin-item .availability { display:flex; flex-direction:row; align-items:center; gap:8px; }
+.admin-item input[type=checkbox] { width:18px; height:18px; }
+.admin-item select { width:100%; padding:9px; background:#fff; color:#302015; border:1px solid #baa080; font:700 13px "DM Sans",sans-serif; }
+.settings-field { max-width:480px; margin-block:22px; }
+@media(max-width:650px) { .admin-item { grid-template-columns:1fr; } }
+.admin-page input[type="checkbox"] { accent-color:#8d603a; cursor:pointer; }
+.admin-header { box-shadow:0 5px 24px #53301b18; }
+.admin-page button { border-radius:6px; box-shadow:0 5px 14px #53301b20,0 0 14px #d9a54d25,inset 0 1px #fff7df60; transition:box-shadow .2s ease,border-color .2s ease; }
+.admin-page button:not(:disabled):hover { border-color:#c59551; box-shadow:0 7px 19px #53301b30,0 0 21px #d9a54d48; }
+.admin-page button:disabled { box-shadow:none; }
+.admin-page input:not([type=checkbox]),.admin-page select { border-radius:5px; box-shadow:inset 0 2px 5px #53301b0c; }
+.admin-section,.admin-search { box-shadow:0 8px 24px #53301b1c,0 0 15px #d9a54d17; }
+.admin-item { box-shadow:0 3px 10px #53301b0e; }
+.admin-search { padding:18px; margin-block:24px; background:#f4e6d1; border:1px solid #c9af8e; }
+.admin-search-controls { display:flex; gap:10px; margin-top:8px; }
+.admin-search-controls input { flex:1; }
+.admin-search-controls button { white-space:nowrap; }
+.admin-search #search-results { margin:10px 0 0; color:#67472d; font-size:13px; }
+.admin-item[hidden], .admin-section[hidden] { display:none; }
+@media(max-width:480px) { .admin-search-controls { flex-direction:column; } }
+.admin-section { padding:0; border:1px solid #9c744e; border-radius:6px; overflow:hidden; margin-block:15px; }
+.section-heading { display:flex; align-items:center; gap:16px; padding:19px 22px; background:#533924; color:#fff2d9; cursor:pointer; list-style:none; }
+.section-heading::-webkit-details-marker { display:none; }
+.section-heading::after { content:"+"; font-size:24px; line-height:1; }
+.admin-section[open]>.section-heading::after { content:"−"; }
+.section-name { flex:1; font:700 clamp(18px,2.5vw,24px)/1.5 "DM Sans","Noto Sans Arabic",sans-serif; }
+.section-total { font-size:12px; color:#efd6ac; white-space:nowrap; }
+.section-heading:focus-visible { outline:3px solid #e6b96f; outline-offset:-4px; }
+.section-content { padding:22px; background:#f1e4d0; }
+.section-fields { padding-bottom:20px; margin-bottom:20px; border-bottom:2px solid #c5a27c; }
+.admin-items { display:grid; gap:14px; }
+.admin-item { padding:17px; background:#fffbf3; border:1px solid #ddc9ae; border-radius:4px; }
+.admin-section .add-item { background:#e4ccaa; }
+@media(max-width:650px) { .section-heading { padding:15px; gap:10px; } .section-content { padding:14px; } .admin-item { padding:12px; } .section-name { font-size:17px; } }

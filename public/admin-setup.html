@@ -1,0 +1,14 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Créer l’accès administrateur — DAHAB</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Noto+Sans+Arabic:wght@700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/admin-login.css?v=3"><script src="/admin-login.js" defer></script></head>
+<body><main class="login-card">
+<a class="logo" href="/"><img src="/assets/dahab-logo.png" alt="DAHAB Café" width="160" height="80"></a>
+<h1>Créer l’accès admin</h1><p>Choisissez l’identifiant et le mot de passe du seul administrateur.</p>
+<form id="admin-login-form" data-mode="setup">
+<label>Identifiant admin<input name="id" autocomplete="username" pattern="[A-Za-z0-9._-]{3,64}" minlength="3" maxlength="64" placeholder="Ex. dahab-admin" required></label>
+<label>Mot de passe · 10 caractères minimum<input name="password" type="password" autocomplete="new-password" minlength="10" maxlength="128" required></label>
+<label>Confirmer le mot de passe<input name="confirmation" type="password" autocomplete="new-password" minlength="10" maxlength="128" required></label>
+<button type="submit" class="login-button">Créer mon accès administrateur</button>
+</form>
+<p id="login-status" role="status" aria-live="polite"></p>
+<a id="setup-link" href="/admin/login">Aller à la connexion</a>
+</main></body></html>

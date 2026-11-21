@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Administration — DAHAB</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Noto+Sans+Arabic:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css?v=9"><link rel="stylesheet" href="/admin.css?v=4"><script src="/admin.js?v=5" defer></script></head>
+<body class="admin-page">
+<header class="admin-header"><a href="/">← Voir le site</a><img src="/assets/dahab-logo.png" alt="DAHAB Café" width="110"><button type="button" id="admin-logout">Déconnexion</button></header>
+<main class="admin-main">
+  <h1>Gérer la carte</h1>
+  <p>Les modifications enregistrées sont visibles pour tous les visiteurs.</p>
+  <div class="admin-actions"><button type="button" id="add-section" disabled>Ajouter une section</button><button type="button" id="save" disabled>Enregistrer la carte</button><button type="button" id="reload">Recharger la carte</button></div>
+  <p id="admin-status" role="status" aria-live="polite">Chargement…</p>
+  <label class="settings-field">Numéro WhatsApp des commandes · format international sans +<input id="order-number" inputmode="tel" pattern="[1-9][0-9]{7,14}" value="212695004456" required><small>Exemple Maroc · 212 suivi du numéro sans le zéro initial.</small></label>
+  <div class="admin-search">
+    <label for="admin-search">Rechercher un article ou une section · ابحث عن منتج أو قسم</label>
+    <div class="admin-search-controls"><input id="admin-search" type="search" placeholder="Ex. cappuccino, miel, قهوة" autocomplete="off" disabled aria-controls="editor"><button id="clear-search" type="button" disabled>Tout afficher</button></div>
+    <p id="search-results" role="status" aria-live="polite"></p>
+  </div>
+  <form id="editor"></form>
+</main>
+</body></html>

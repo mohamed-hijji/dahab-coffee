@@ -1,0 +1,187 @@
+﻿El Salvador
+Café Dahab El Salvador · 250 g|70
+Espresso El Salvador|15
+Espresso El Salvador au lait|17
+Espresso Americano El Salvador|16
+Latte El Salvador|20
+Cappuccino El Salvador|22
+Ice El Salvador|24
+Ice Latte Salvador|30
+
+Espresso
+Espresso Spécial|7
+Espresso Americano|8
+Espresso Americano Arabica|12
+Espresso Americano Arabica au miel|13
+Espresso Americano au miel|9
+Espresso Americano Moka|10
+Espresso Americano Moka au miel|11
+Espresso Americano Moka au sirop caramel|13
+Espresso Americano Arabica au sirop cookie|15
+Espresso double|14
+Espresso double au miel|14
+Espresso Macchiato|9
+Espresso Moka double|18
+Espresso Moka double au miel|18
+Espresso Viennois|11
+Espresso Viennois Moka|13
+
+Arabica
+Café Arabica|11
+Café Arabica au lait|13
+Café Arabica avec miel|12
+Café Arabica au sirop caramel|14
+Café Arabica au sirop cookie|14
+Café Arabica au sirop noisette|14
+Café Arabica au sirop vanille|14
+
+Moka
+Café Moka|9
+Café Moka au lait|11
+Café Moka au lait avec miel|12
+Café Moka au lait avec sirop caramel|14
+Café Moka au lait avec sirop cookies|14
+Café Moka au lait avec sirop noisette|14
+Café Moka au lait avec sirop vanille|14
+Café Moka au miel|10
+Café Moka au sirop caramel|12
+Café Moka au sirop cookies|12
+Café Moka au sirop noisette|12
+Café Moka au sirop vanille|12
+
+Café au lait
+Café au lait|9
+Café au lait avec miel|10
+Café au lait au sirop caramel|12
+Café au lait au sirop cookies|12
+Café au lait au sirop noisette|12
+Café au lait au sirop vanille|12
+
+Cappuccino
+Cappuccino|16
+Cappuccino Arabica|18
+Cappuccino caramel|18
+Cappuccino cookie|18
+Cappuccino gourmand|23
+Cappuccino noisette|18
+Cappuccino vanille|18
+Cappuccino viennois|18
+
+Latte
+Latté caramel|19
+Latté cookie|19
+Latté Macchiato|13
+Latté Macchiato gourmand|23
+Latté noisette|19
+Latté vanille|19
+Latté viennois|21
+
+Chocolat
+Chocolat chaud italien|17
+Chocolat chaud grand|19
+Chocolat chaud moyen|13
+Chocolat chaud petit|8
+Chocolat chaud viennois grand|21
+Chocolat chaud viennois petit|13
+Chocolat gourmand grand|25
+Chocolat gourmand petit|15
+Dahab Spécial petit|15
+Dahab Spécial grand|27
+
+Cocktails
+Fresh Dahab|19
+Mojito pêche|22
+Mojito fraise|22
+Piña Colada|27
+Soda italien aromatisé|16
+Tonic Espresso|18
+Virgin Mojito|17
+Detox Dahab|35
+
+Frappés
+Café Frappé|20
+Caramel Frappé|26
+Caramel Latté Frappé|28
+Chocolat Frappé|24
+Frappé fraise|24
+Frappé Moka Oreo|29
+Frappé Moka|26
+Frappé mangue|24
+Frappé Dahab|30
+
+Ice
+Ice Coffee|16
+Ice Caramel Latte|18
+Ice Mocha|20
+Ice Moka|18
+Ice Arabica|20
+Ice Tea|14
+
+Thé
+Manzanilla|7
+Thé américain|9
+Thé noir|7
+Thé noir au miel|8
+Verbena|7
+
+Famille chaï
+Vanilla Chai Latté|25
+Ice Vanilla Chai|30
+Vanilla Chai Frappé|31
+Vanilla Chai|23
+Spiced Chai|25
+Spiced Chai Latté|27
+Spiced Chai Frappé|33
+Ice Spiced Chai Latté|32
+
+Grains
+Moka · 125 g|19
+Moka · 250 g|37
+Moka · 1 kg|145
+Brésil · 125 g|17,5
+Brésil · 250 g|34
+Brésil · 1 kg|135
+Spécial · 250 g|35
+Spécial · 1 kg|139
+Arabica · 250 g|50
+Café vert Arabica · 250 g|55
+Café vert Robusta · 250 g|42,5
+
+Pâtisserie
+Cookie Dahab|8
+Macaron Dahab|9
+Brownie double chocolat Dahab|12
+Pop cake Dahab|12
+Tarte au citron|15
+Tarte aux noix et miel|17
+
+Miel
+Miel eucalyptus · 50 g|15
+Miel eucalyptus · 250 g|48
+Miel eucalyptus · 500 g|80
+Miel eucalyptus · 1 kg|150
+Miel orange · 50 g|12
+Miel orange · 250 g|35
+Miel orange · 500 g|65
+Miel orange · 1 kg|120
+Miel thym · 50 g|22,50
+Miel thym · 250 g|90
+Miel thym · 500 g|175
+Miel thym · 1 kg|350
+Miel daghmous · 50 g|25
+Miel daghmous · 250 g|100
+Miel daghmous · 500 g|200
+Miel daghmous · 1 kg|400
+
+Amlou et argan
+Amlou · 250 g|75
+Amlou · 500 g|125
+Amlou Light · 250 g|80
+Huile d’argan · 250 ml|150
+
+Fizz et smoothies
+Golden Fizz|28
+Solero Choco Smoothie|35
+Sunrise Tropical Fizz|28
+Strawberry Crunch Stracciatella|35
+Red Berry Splash|28

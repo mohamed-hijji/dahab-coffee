@@ -1,0 +1,870 @@
+[
+  {
+    "fr": "El Salvador",
+    "ar": "السلفادور",
+    "items": [
+      {
+        "fr": "Café Dahab El Salvador · 250 g",
+        "ar": "قهوة دَهَب السلفادور · 250 غ",
+        "price": "70"
+      },
+      {
+        "fr": "Espresso El Salvador",
+        "ar": "إسبريسو السلفادور",
+        "price": "15"
+      },
+      {
+        "fr": "Espresso El Salvador au lait",
+        "ar": "إسبريسو السلفادور بالحليب",
+        "price": "17"
+      },
+      {
+        "fr": "Espresso Americano El Salvador",
+        "ar": "إسبريسو أمريكانو السلفادور",
+        "price": "16"
+      },
+      {
+        "fr": "Latte El Salvador",
+        "ar": "لاتيه السلفادور",
+        "price": "20"
+      },
+      {
+        "fr": "Cappuccino El Salvador",
+        "ar": "كابتشينو السلفادور",
+        "price": "22"
+      },
+      {
+        "fr": "Ice El Salvador",
+        "ar": "مثلج السلفادور",
+        "price": "24"
+      },
+      {
+        "fr": "Ice Latte Salvador",
+        "ar": "مثلج لاتيه السلفادور",
+        "price": "30"
+      }
+    ]
+  },
+  {
+    "fr": "Espresso",
+    "ar": "إسبريسو",
+    "items": [
+      {
+        "fr": "Espresso Spécial",
+        "ar": "إسبريسو سبيسيال",
+        "price": "7"
+      },
+      {
+        "fr": "Espresso Americano",
+        "ar": "إسبريسو أمريكانو",
+        "price": "8"
+      },
+      {
+        "fr": "Espresso Americano Arabica",
+        "ar": "إسبريسو أمريكانو أرابيكا",
+        "price": "12"
+      },
+      {
+        "fr": "Espresso Americano Arabica au miel",
+        "ar": "إسبريسو أمريكانو أرابيكا بالعسل",
+        "price": "13"
+      },
+      {
+        "fr": "Espresso Americano au miel",
+        "ar": "إسبريسو أمريكانو بالعسل",
+        "price": "9"
+      },
+      {
+        "fr": "Espresso Americano Moka",
+        "ar": "إسبريسو أمريكانو موكا",
+        "price": "10"
+      },
+      {
+        "fr": "Espresso Americano Moka au miel",
+        "ar": "إسبريسو أمريكانو موكا بالعسل",
+        "price": "11"
+      },
+      {
+        "fr": "Espresso Americano Moka au sirop caramel",
+        "ar": "إسبريسو أمريكانو موكا بشراب كراميل",
+        "price": "13"
+      },
+      {
+        "fr": "Espresso Americano Arabica au sirop cookie",
+        "ar": "إسبريسو أمريكانو أرابيكا بشراب كوكي",
+        "price": "15"
+      },
+      {
+        "fr": "Espresso double",
+        "ar": "إسبريسو مضاعف",
+        "price": "14"
+      },
+      {
+        "fr": "Espresso double au miel",
+        "ar": "إسبريسو مضاعف بالعسل",
+        "price": "14"
+      },
+      {
+        "fr": "Espresso Macchiato",
+        "ar": "إسبريسو ماكياتو",
+        "price": "9"
+      },
+      {
+        "fr": "Espresso Moka double",
+        "ar": "إسبريسو موكا مضاعف",
+        "price": "18"
+      },
+      {
+        "fr": "Espresso Moka double au miel",
+        "ar": "إسبريسو موكا مضاعف بالعسل",
+        "price": "18"
+      },
+      {
+        "fr": "Espresso Viennois",
+        "ar": "إسبريسو فيينا",
+        "price": "11"
+      },
+      {
+        "fr": "Espresso Viennois Moka",
+        "ar": "إسبريسو فيينا موكا",
+        "price": "13"
+      }
+    ]
+  },
+  {
+    "fr": "Arabica",
+    "ar": "أرابيكا",
+    "items": [
+      {
+        "fr": "Café Arabica",
+        "ar": "قهوة أرابيكا",
+        "price": "11"
+      },
+      {
+        "fr": "Café Arabica au lait",
+        "ar": "قهوة أرابيكا بالحليب",
+        "price": "13"
+      },
+      {
+        "fr": "Café Arabica avec miel",
+        "ar": "قهوة أرابيكا بالعسل",
+        "price": "12"
+      },
+      {
+        "fr": "Café Arabica au sirop caramel",
+        "ar": "قهوة أرابيكا بشراب كراميل",
+        "price": "14"
+      },
+      {
+        "fr": "Café Arabica au sirop cookie",
+        "ar": "قهوة أرابيكا بشراب كوكي",
+        "price": "14"
+      },
+      {
+        "fr": "Café Arabica au sirop noisette",
+        "ar": "قهوة أرابيكا بشراب بندق",
+        "price": "14"
+      },
+      {
+        "fr": "Café Arabica au sirop vanille",
+        "ar": "قهوة أرابيكا بشراب فانيلا",
+        "price": "14"
+      }
+    ]
+  },
+  {
+    "fr": "Moka",
+    "ar": "موكا",
+    "items": [
+      {
+        "fr": "Café Moka",
+        "ar": "قهوة موكا",
+        "price": "9"
+      },
+      {
+        "fr": "Café Moka au lait",
+        "ar": "قهوة موكا بالحليب",
+        "price": "11"
+      },
+      {
+        "fr": "Café Moka au lait avec miel",
+        "ar": "قهوة موكا بالحليب والعسل",
+        "price": "12"
+      },
+      {
+        "fr": "Café Moka au lait avec sirop caramel",
+        "ar": "قهوة موكا بالحليب وشراب كراميل",
+        "price": "14"
+      },
+      {
+        "fr": "Café Moka au lait avec sirop cookies",
+        "ar": "قهوة موكا بالحليب وشراب كوكيز",
+        "price": "14"
+      },
+      {
+        "fr": "Café Moka au lait avec sirop noisette",
+        "ar": "قهوة موكا بالحليب وشراب بندق",
+        "price": "14"
+      },
+      {
+        "fr": "Café Moka au lait avec sirop vanille",
+        "ar": "قهوة موكا بالحليب وشراب فانيلا",
+        "price": "14"
+      },
+      {
+        "fr": "Café Moka au miel",
+        "ar": "قهوة موكا بالعسل",
+        "price": "10"
+      },
+      {
+        "fr": "Café Moka au sirop caramel",
+        "ar": "قهوة موكا بشراب كراميل",
+        "price": "12"
+      },
+      {
+        "fr": "Café Moka au sirop cookies",
+        "ar": "قهوة موكا بشراب كوكيز",
+        "price": "12"
+      },
+      {
+        "fr": "Café Moka au sirop noisette",
+        "ar": "قهوة موكا بشراب بندق",
+        "price": "12"
+      },
+      {
+        "fr": "Café Moka au sirop vanille",
+        "ar": "قهوة موكا بشراب فانيلا",
+        "price": "12"
+      }
+    ]
+  },
+  {
+    "fr": "Café au lait",
+    "ar": "قهوة بالحليب",
+    "items": [
+      {
+        "fr": "Café au lait",
+        "ar": "قهوة بالحليب",
+        "price": "9"
+      },
+      {
+        "fr": "Café au lait avec miel",
+        "ar": "قهوة بالحليب والعسل",
+        "price": "10"
+      },
+      {
+        "fr": "Café au lait au sirop caramel",
+        "ar": "قهوة بالحليب وشراب كراميل",
+        "price": "12"
+      },
+      {
+        "fr": "Café au lait au sirop cookies",
+        "ar": "قهوة بالحليب وشراب كوكيز",
+        "price": "12"
+      },
+      {
+        "fr": "Café au lait au sirop noisette",
+        "ar": "قهوة بالحليب وشراب بندق",
+        "price": "12"
+      },
+      {
+        "fr": "Café au lait au sirop vanille",
+        "ar": "قهوة بالحليب وشراب فانيلا",
+        "price": "12"
+      }
+    ]
+  },
+  {
+    "fr": "Cappuccino",
+    "ar": "كابتشينو",
+    "items": [
+      {
+        "fr": "Cappuccino",
+        "ar": "كابتشينو",
+        "price": "16"
+      },
+      {
+        "fr": "Cappuccino Arabica",
+        "ar": "كابتشينو أرابيكا",
+        "price": "18"
+      },
+      {
+        "fr": "Cappuccino caramel",
+        "ar": "كابتشينو كراميل",
+        "price": "18"
+      },
+      {
+        "fr": "Cappuccino cookie",
+        "ar": "كابتشينو كوكي",
+        "price": "18"
+      },
+      {
+        "fr": "Cappuccino gourmand",
+        "ar": "كابتشينو غني",
+        "price": "23"
+      },
+      {
+        "fr": "Cappuccino noisette",
+        "ar": "كابتشينو بندق",
+        "price": "18"
+      },
+      {
+        "fr": "Cappuccino vanille",
+        "ar": "كابتشينو فانيلا",
+        "price": "18"
+      },
+      {
+        "fr": "Cappuccino viennois",
+        "ar": "كابتشينو فيينا",
+        "price": "18"
+      }
+    ]
+  },
+  {
+    "fr": "Latte",
+    "ar": "لاتيه",
+    "items": [
+      {
+        "fr": "Latté caramel",
+        "ar": "لاتيه كراميل",
+        "price": "19"
+      },
+      {
+        "fr": "Latté cookie",
+        "ar": "لاتيه كوكي",
+        "price": "19"
+      },
+      {
+        "fr": "Latté Macchiato",
+        "ar": "لاتيه ماكياتو",
+        "price": "13"
+      },
+      {
+        "fr": "Latté Macchiato gourmand",
+        "ar": "لاتيه ماكياتو غني",
+        "price": "23"
+      },
+      {
+        "fr": "Latté noisette",
+        "ar": "لاتيه بندق",
+        "price": "19"
+      },
+      {
+        "fr": "Latté vanille",
+        "ar": "لاتيه فانيلا",
+        "price": "19"
+      },
+      {
+        "fr": "Latté viennois",
+        "ar": "لاتيه فيينا",
+        "price": "21"
+      }
+    ]
+  },
+  {
+    "fr": "Chocolat",
+    "ar": "شوكولاتة",
+    "items": [
+      {
+        "fr": "Chocolat chaud italien",
+        "ar": "شوكولاتة ساخنة إيطالية",
+        "price": "17"
+      },
+      {
+        "fr": "Chocolat chaud grand",
+        "ar": "شوكولاتة ساخنة كبير",
+        "price": "19"
+      },
+      {
+        "fr": "Chocolat chaud moyen",
+        "ar": "شوكولاتة ساخنة متوسط",
+        "price": "13"
+      },
+      {
+        "fr": "Chocolat chaud petit",
+        "ar": "شوكولاتة ساخنة صغير",
+        "price": "8"
+      },
+      {
+        "fr": "Chocolat chaud viennois grand",
+        "ar": "شوكولاتة ساخنة فيينا كبير",
+        "price": "21"
+      },
+      {
+        "fr": "Chocolat chaud viennois petit",
+        "ar": "شوكولاتة ساخنة فيينا صغير",
+        "price": "13"
+      },
+      {
+        "fr": "Chocolat gourmand grand",
+        "ar": "شوكولاتة غنية كبير",
+        "price": "25"
+      },
+      {
+        "fr": "Chocolat gourmand petit",
+        "ar": "شوكولاتة غنية صغير",
+        "price": "15"
+      },
+      {
+        "fr": "Dahab Spécial petit",
+        "ar": "دَهَب سبيسيال صغير",
+        "price": "15"
+      },
+      {
+        "fr": "Dahab Spécial grand",
+        "ar": "دَهَب سبيسيال كبير",
+        "price": "27"
+      }
+    ]
+  },
+  {
+    "fr": "Cocktails",
+    "ar": "كوكتيلات",
+    "items": [
+      {
+        "fr": "Fresh Dahab",
+        "ar": "فريش دَهَب",
+        "price": "19"
+      },
+      {
+        "fr": "Mojito pêche",
+        "ar": "موهيتو خوخ",
+        "price": "22"
+      },
+      {
+        "fr": "Mojito fraise",
+        "ar": "موهيتو فراولة",
+        "price": "22"
+      },
+      {
+        "fr": "Piña Colada",
+        "ar": "بينا كولادا",
+        "price": "27"
+      },
+      {
+        "fr": "Soda italien aromatisé",
+        "ar": "صودا إيطالية منكهة",
+        "price": "16"
+      },
+      {
+        "fr": "Tonic Espresso",
+        "ar": "تونيك إسبريسو",
+        "price": "18"
+      },
+      {
+        "fr": "Virgin Mojito",
+        "ar": "موهيتو بدون كحول",
+        "price": "17"
+      },
+      {
+        "fr": "Detox Dahab",
+        "ar": "ديتوكس دَهَب",
+        "price": "35"
+      }
+    ]
+  },
+  {
+    "fr": "Frappés",
+    "ar": "فرابيه",
+    "items": [
+      {
+        "fr": "Café Frappé",
+        "ar": "قهوة فرابيه",
+        "price": "20"
+      },
+      {
+        "fr": "Caramel Frappé",
+        "ar": "كراميل فرابيه",
+        "price": "26"
+      },
+      {
+        "fr": "Caramel Latté Frappé",
+        "ar": "كراميل لاتيه فرابيه",
+        "price": "28"
+      },
+      {
+        "fr": "Chocolat Frappé",
+        "ar": "شوكولاتة فرابيه",
+        "price": "24"
+      },
+      {
+        "fr": "Frappé fraise",
+        "ar": "فرابيه فراولة",
+        "price": "24"
+      },
+      {
+        "fr": "Frappé Moka Oreo",
+        "ar": "فرابيه موكا أوريو",
+        "price": "29"
+      },
+      {
+        "fr": "Frappé Moka",
+        "ar": "فرابيه موكا",
+        "price": "26"
+      },
+      {
+        "fr": "Frappé mangue",
+        "ar": "فرابيه مانجو",
+        "price": "24"
+      },
+      {
+        "fr": "Frappé Dahab",
+        "ar": "فرابيه دَهَب",
+        "price": "30"
+      }
+    ]
+  },
+  {
+    "fr": "Ice",
+    "ar": "مشروبات مثلجة",
+    "items": [
+      {
+        "fr": "Ice Coffee",
+        "ar": "قهوة مثلجة",
+        "price": "16"
+      },
+      {
+        "fr": "Ice Caramel Latte",
+        "ar": "لاتيه كراميل مثلج",
+        "price": "18"
+      },
+      {
+        "fr": "Ice Mocha",
+        "ar": "موكا مثلجة",
+        "price": "20"
+      },
+      {
+        "fr": "Ice Moka",
+        "ar": "موكا مثلجة",
+        "price": "18"
+      },
+      {
+        "fr": "Ice Arabica",
+        "ar": "أرابيكا مثلجة",
+        "price": "20"
+      },
+      {
+        "fr": "Ice Tea",
+        "ar": "شاي مثلج",
+        "price": "14"
+      }
+    ]
+  },
+  {
+    "fr": "Thé",
+    "ar": "شاي",
+    "items": [
+      {
+        "fr": "Manzanilla",
+        "ar": "بابونج",
+        "price": "7"
+      },
+      {
+        "fr": "Thé américain",
+        "ar": "شاي أمريكي",
+        "price": "9"
+      },
+      {
+        "fr": "Thé noir",
+        "ar": "شاي أسود",
+        "price": "7"
+      },
+      {
+        "fr": "Thé noir au miel",
+        "ar": "شاي أسود بالعسل",
+        "price": "8"
+      },
+      {
+        "fr": "Verbena",
+        "ar": "لويزة",
+        "price": "7"
+      }
+    ]
+  },
+  {
+    "fr": "Famille chaï",
+    "ar": "عائلة التشاي",
+    "items": [
+      {
+        "fr": "Vanilla Chai Latté",
+        "ar": "تشاي بالفانيلا لاتيه",
+        "price": "25"
+      },
+      {
+        "fr": "Ice Vanilla Chai",
+        "ar": "مثلج تشاي بالفانيلا",
+        "price": "30"
+      },
+      {
+        "fr": "Vanilla Chai Frappé",
+        "ar": "تشاي بالفانيلا فرابيه",
+        "price": "31"
+      },
+      {
+        "fr": "Vanilla Chai",
+        "ar": "تشاي بالفانيلا",
+        "price": "23"
+      },
+      {
+        "fr": "Spiced Chai",
+        "ar": "تشاي بالتوابل",
+        "price": "25"
+      },
+      {
+        "fr": "Spiced Chai Latté",
+        "ar": "تشاي بالتوابل لاتيه",
+        "price": "27"
+      },
+      {
+        "fr": "Spiced Chai Frappé",
+        "ar": "تشاي بالتوابل فرابيه",
+        "price": "33"
+      },
+      {
+        "fr": "Ice Spiced Chai Latté",
+        "ar": "مثلج تشاي بالتوابل لاتيه",
+        "price": "32"
+      }
+    ]
+  },
+  {
+    "fr": "Grains",
+    "ar": "حبوب القهوة",
+    "items": [
+      {
+        "fr": "Moka · 125 g",
+        "ar": "موكا · 125 غ",
+        "price": "19"
+      },
+      {
+        "fr": "Moka · 250 g",
+        "ar": "موكا · 250 غ",
+        "price": "37"
+      },
+      {
+        "fr": "Moka · 1 kg",
+        "ar": "موكا · 1 كغ",
+        "price": "145"
+      },
+      {
+        "fr": "Brésil · 125 g",
+        "ar": "برازيلي · 125 غ",
+        "price": "17,5"
+      },
+      {
+        "fr": "Brésil · 250 g",
+        "ar": "برازيلي · 250 غ",
+        "price": "34"
+      },
+      {
+        "fr": "Brésil · 1 kg",
+        "ar": "برازيلي · 1 كغ",
+        "price": "135"
+      },
+      {
+        "fr": "Spécial · 250 g",
+        "ar": "سبيسيال · 250 غ",
+        "price": "35"
+      },
+      {
+        "fr": "Spécial · 1 kg",
+        "ar": "سبيسيال · 1 كغ",
+        "price": "139"
+      },
+      {
+        "fr": "Arabica · 250 g",
+        "ar": "أرابيكا · 250 غ",
+        "price": "50"
+      },
+      {
+        "fr": "Café vert Arabica · 250 g",
+        "ar": "قهوة أرابيكا خضراء · 250 غ",
+        "price": "55"
+      },
+      {
+        "fr": "Café vert Robusta · 250 g",
+        "ar": "قهوة روبوستا خضراء · 250 غ",
+        "price": "42,5"
+      }
+    ]
+  },
+  {
+    "fr": "Pâtisserie",
+    "ar": "حلويات",
+    "items": [
+      {
+        "fr": "Cookie Dahab",
+        "ar": "كوكي دَهَب",
+        "price": "8"
+      },
+      {
+        "fr": "Macaron Dahab",
+        "ar": "ماكرون دَهَب",
+        "price": "9"
+      },
+      {
+        "fr": "Brownie double chocolat Dahab",
+        "ar": "براوني بالشوكولاتة المضاعفة دَهَب",
+        "price": "12"
+      },
+      {
+        "fr": "Pop cake Dahab",
+        "ar": "بوب كيك دَهَب",
+        "price": "12"
+      },
+      {
+        "fr": "Tarte au citron",
+        "ar": "تارت بالليمون",
+        "price": "15"
+      },
+      {
+        "fr": "Tarte aux noix et miel",
+        "ar": "تارت بالجوز والعسل",
+        "price": "17"
+      }
+    ]
+  },
+  {
+    "fr": "Miel",
+    "ar": "عسل",
+    "items": [
+      {
+        "fr": "Miel eucalyptus · 50 g",
+        "ar": "عسل الكاليبتوس · 50 غ",
+        "price": "15"
+      },
+      {
+        "fr": "Miel eucalyptus · 250 g",
+        "ar": "عسل الكاليبتوس · 250 غ",
+        "price": "48"
+      },
+      {
+        "fr": "Miel eucalyptus · 500 g",
+        "ar": "عسل الكاليبتوس · 500 غ",
+        "price": "80"
+      },
+      {
+        "fr": "Miel eucalyptus · 1 kg",
+        "ar": "عسل الكاليبتوس · 1 كغ",
+        "price": "150"
+      },
+      {
+        "fr": "Miel orange · 50 g",
+        "ar": "عسل البرتقال · 50 غ",
+        "price": "12"
+      },
+      {
+        "fr": "Miel orange · 250 g",
+        "ar": "عسل البرتقال · 250 غ",
+        "price": "35"
+      },
+      {
+        "fr": "Miel orange · 500 g",
+        "ar": "عسل البرتقال · 500 غ",
+        "price": "65"
+      },
+      {
+        "fr": "Miel orange · 1 kg",
+        "ar": "عسل البرتقال · 1 كغ",
+        "price": "120"
+      },
+      {
+        "fr": "Miel thym · 50 g",
+        "ar": "عسل الزعتر · 50 غ",
+        "price": "22,50"
+      },
+      {
+        "fr": "Miel thym · 250 g",
+        "ar": "عسل الزعتر · 250 غ",
+        "price": "90"
+      },
+      {
+        "fr": "Miel thym · 500 g",
+        "ar": "عسل الزعتر · 500 غ",
+        "price": "175"
+      },
+      {
+        "fr": "Miel thym · 1 kg",
+        "ar": "عسل الزعتر · 1 كغ",
+        "price": "350"
+      },
+      {
+        "fr": "Miel daghmous · 50 g",
+        "ar": "عسل الدغموس · 50 غ",
+        "price": "25"
+      },
+      {
+        "fr": "Miel daghmous · 250 g",
+        "ar": "عسل الدغموس · 250 غ",
+        "price": "100"
+      },
+      {
+        "fr": "Miel daghmous · 500 g",
+        "ar": "عسل الدغموس · 500 غ",
+        "price": "200"
+      },
+      {
+        "fr": "Miel daghmous · 1 kg",
+        "ar": "عسل الدغموس · 1 كغ",
+        "price": "400"
+      }
+    ]
+  },
+  {
+    "fr": "Amlou et argan",
+    "ar": "أملو وأركان",
+    "items": [
+      {
+        "fr": "Amlou · 250 g",
+        "ar": "أملو · 250 غ",
+        "price": "75"
+      },
+      {
+        "fr": "Amlou · 500 g",
+        "ar": "أملو · 500 غ",
+        "price": "125"
+      },
+      {
+        "fr": "Amlou Light · 250 g",
+        "ar": "أملو لايت · 250 غ",
+        "price": "80"
+      },
+      {
+        "fr": "Huile d’argan · 250 ml",
+        "ar": "زيت الأركان · 250 مل",
+        "price": "150"
+      }
+    ]
+  },
+  {
+    "fr": "Fizz et smoothies",
+    "ar": "فيز وسموثي",
+    "items": [
+      {
+        "fr": "Golden Fizz",
+        "ar": "غولدن فيز",
+        "price": "28"
+      },
+      {
+        "fr": "Solero Choco Smoothie",
+        "ar": "سموثي سوليرو شوكو",
+        "price": "35"
+      },
+      {
+        "fr": "Sunrise Tropical Fizz",
+        "ar": "سانرايز تروبيكال فيز",
+        "price": "28"
+      },
+      {
+        "fr": "Strawberry Crunch Stracciatella",
+        "ar": "ستروبيري كرانش ستراتشياتيلا",
+        "price": "35"
+      },
+      {
+        "fr": "Red Berry Splash",
+        "ar": "ريد بيري سبلاش",
+        "price": "28"
+      }
+    ]
+  }
+]

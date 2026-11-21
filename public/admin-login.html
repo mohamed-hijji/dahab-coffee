@@ -1,0 +1,16 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Connexion administrateur — DAHAB</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Noto+Sans+Arabic:wght@700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/admin-login.css?v=3"><script src="/admin-login.js" defer></script></head>
+<body><main class="login-card">
+<a class="logo" href="/"><img src="/assets/dahab-logo.png" alt="DAHAB Café" width="160" height="80"></a>
+<h1>Connexion administrateur</h1>
+<p>Accédez à la gestion de votre carte.</p>
+<form id="admin-login-form" data-mode="login">
+<label>Identifiant admin<input name="id" autocomplete="username" maxlength="64" required></label>
+<label>Mot de passe<input name="password" type="password" autocomplete="current-password" maxlength="128" required></label>
+<button type="submit" class="login-button">Se connecter</button>
+</form>
+<p id="login-status" role="status" aria-live="polite"></p>
+<a id="setup-link" href="/admin/setup" hidden>Créer l’identifiant et le mot de passe</a>
+<p class="arabic" lang="ar" dir="rtl">سجّل الدخول بمعرّف المدير وكلمة المرور لإدارة القائمة.</p>
+<a class="return-link" href="/">← Retour au café</a>
+</main></body></html>
