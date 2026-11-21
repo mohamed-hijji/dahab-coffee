@@ -8,19 +8,20 @@ function validMenu(menu) {
   const label = value => typeof value === "string" && value.trim().length > 0 && value.length <= 180;
   return menu.every(group => group && label(group.fr) && label(group.ar) && Array.isArray(group.items) && group.items.length <= 400 && group.items.every(item => {
     count++;
-    return item && count <= 2000 && (!item.id || /^[a-zA-Z0-9_-]{1,80}$/.test(item.id)) && (item.available === undefined || typeof item.available === "boolean") && (item.image === undefined || item.image === "" || photoCatalog.photos.some(photo=>photo.src===item.image)) && label(item.fr) && label(item.ar) && typeof item.price === "string" && /^\d{1,6}(,\d{1,2})?$/.test(item.price) && Number(item.price.replace(",",".")) > 0;
+    return item && count <= 2000 && (!item.id || /^[a-zA-Z0-9_-]{1,80}$/.test(item.id)) && (item.available === undefined || typeof item.available === "boolean") && (item.image === undefined || item.image === "" || /^\/assets\/menu-[a-z]+\.webp$/.test(item.image)) && label(item.fr) && label(item.ar) && typeof item.price === "string" && /^\d{1,6}(,\d{1,2})?$/.test(item.price) && Number(item.price.replace(",",".")) > 0;
   }));
 }
 const defaultSettings = {whatsapp:"212695004456"};
-const groupPhotos={"El Salvador":"salvador","Espresso":"espresso","Arabica":"arabica","Moka":"moka","Café au lait":"milkcoffee","Cappuccino":"cappuccino","Latte":"latte","Chocolat":"chocolate","Cocktails":"cocktail","Frappés":"frappe","Ice":"ice","Thé":"tea","Famille chaï":"chai","Grains":"beans","Pâtisserie":"cookie","Miel":"honey","Amlou et argan":"amlou","Fizz et smoothies":"goldenfizz"};
+const menuPhotos = {
+  "Café Arabica":"/assets/menu-arabica.webp", "Latté Macchiato":"/assets/menu-latte.webp",
+  "Ice Coffee":"/assets/menu-ice.webp", "Frappé Moka Oreo":"/assets/menu-frappe.webp",
+  "Tarte au citron":"/assets/menu-tarte.webp", "Miel eucalyptus · 250 g":"/assets/menu-miel.webp"
+};
 function normalizeMenu(menu) {
-  return menu.map((group,gi)=>({...group,items:group.items.map((item,ii)=>{
-    const selected=photoCatalog.photos.find(photo=>photo.src===item.image);
-    const fallback=photoCatalog.defaults[item.fr]||groupPhotos[group.fr]||"espresso";
-    const photo=selected||photoCatalog.photos.find(photo=>photo.key===fallback);
-    return {...item,id:item.id||"legacy-"+gi+"-"+ii,available:item.available!==false,
-      image:photo.src,imageKind:photo.exact.includes(item.fr)?"dahab":"representative"};
-  })}));
+  return menu.map((group,gi)=>({...group,items:group.items.map((item,ii)=>({
+    ...item,id:item.id||"legacy-"+gi+"-"+ii,available:item.available!==false,
+    image:item.image===undefined?(menuPhotos[item.fr]||""):item.image
+  }))}));
 }
 async function readMenu(env) {
   const object = await env.BUCKET.get(menuKey);
