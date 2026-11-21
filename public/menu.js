@@ -41,6 +41,21 @@
     button.addEventListener("click",()=>{change(item,1);orderStatus.textContent=text(item.fr+" ajouté au panier.", "تمت إضافة "+item.ar+" إلى السلة.");});
     return button;
   }
+  const photoDialog=create("dialog","photo-dialog");
+  const photoClose=create("button","photo-close"),photoTitle=create("h2"),photoImage=create("img","photo-full"),photoNote=create("p","photo-note");
+  photoTitle.id="photo-title";photoDialog.setAttribute("aria-labelledby","photo-title");
+  photoImage.decoding="async";photoDialog.append(photoClose,photoTitle,photoImage,photoNote);document.body.append(photoDialog);
+  let viewedItem=null;
+  function updatePhotoText(){
+    photoClose.textContent=text("Fermer","إغلاق");
+    if(!viewedItem)return;
+    photoTitle.textContent=viewedItem[language()];photoImage.alt=viewedItem[language()];
+    photoNote.textContent=viewedItem.imageKind==="dahab"?text("Photo issue de la carte Dahab.","صورة من قائمة دَهَب."):text("Visuel indicatif : la présentation, les ingrédients visibles et le format peuvent varier. Consultez le nom de l’article avant de commander.","صورة توضيحية: قد يختلف التقديم والمكونات الظاهرة والحجم. راجع اسم المنتج قبل الطلب.");
+  }
+  function openPhoto(item){viewedItem=item;photoImage.src=item.image;updatePhotoText();photoDialog.showModal();}
+  photoClose.addEventListener("click",()=>photoDialog.close());
+  photoDialog.addEventListener("click",event=>{if(event.target===photoDialog)photoDialog.close();});
+  document.addEventListener("languagechange",updatePhotoText);
   function renderMenu(){
     if(failed){status.textContent=text("La carte est temporairement indisponible. Rechargez la page.","القائمة غير متاحة مؤقتاً. أعد تحميل الصفحة.");return;}
     if(!groups.length)return;
@@ -59,10 +74,14 @@
       for(const item of items){
         const row=create("li","menu-row");
         const info=create("span","item-info");
+        const label=create("span","item-description");label.append(create("span","item-name",item[language()]));
         if(item.image){
-          const photo=create("img","menu-thumb");photo.src=item.image;photo.alt=item[language()];photo.loading="lazy";photo.width=64;photo.height=64;info.append(photo);
+          const photo=create("img","menu-thumb");photo.src=item.image;photo.alt=item[language()];photo.loading="lazy";photo.decoding="async";photo.width=96;photo.height=96;
+          const view=create("button","product-photo");view.type="button";view.setAttribute("aria-label",text("Voir la photo de "+item.fr,"عرض صورة "+item.ar));view.append(photo);
+          view.addEventListener("click",()=>openPhoto(item));info.append(view);
+          label.append(create("small","photo-caption",item.imageKind==="dahab"?text("Photo Dahab","صورة دَهَب"):text("Visuel indicatif","صورة توضيحية")));
         }
-        info.append(create("span","item-name",item[language()]));
+        info.append(label);
         const price=create("span","item-price",format(cents(item)));price.dir="auto";
         row.append(info,price,control(item));rows.append(row);
       }

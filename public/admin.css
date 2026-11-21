@@ -52,3 +52,5 @@
 .admin-item { padding:17px; background:#fffbf3; border:1px solid #ddc9ae; border-radius:4px; }
 .admin-section .add-item { background:#e4ccaa; }
 @media(max-width:650px) { .section-heading { padding:15px; gap:10px; } .section-content { padding:14px; } .admin-item { padding:12px; } .section-name { font-size:17px; } }
+
+.admin-photo-preview { width:80px; height:80px; object-fit:contain; border:1px solid #ddc9ae; border-radius:6px; background:#f8efdf; margin-top:7px; }

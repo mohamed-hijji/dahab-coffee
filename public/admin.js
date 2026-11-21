@@ -30,6 +30,7 @@
   function showAll() { search.value="";applySearch(); }
   search.addEventListener("input",applySearch);
   clearSearch.addEventListener("click",()=>{showAll();search.focus();});
+  let photoOptions=[];
   let revision="";
   let dirty=false;
   let busy=false;
@@ -55,9 +56,13 @@
     availability.append(checkbox,document.createTextNode("Disponible à la commande"));
     const photoLabel=document.createElement("label");photoLabel.textContent="Photo";
     const select=document.createElement("select");select.dataset.field="image";
-    const photos=[["","Sans photo"],["/assets/menu-arabica.webp","Café Arabica"],["/assets/menu-latte.webp","Latte"],["/assets/menu-ice.webp","Ice Coffee"],["/assets/menu-frappe.webp","Frappé Moka Oreo"],["/assets/menu-tarte.webp","Tarte au citron"],["/assets/menu-miel.webp","Miel eucalyptus"]];
+    const photos=[["","Photo automatique"],...photoOptions.map(photo=>[photo.src,photo.label+(photo.source==="representative"?" · indicatif":" · Dahab")])];
     for(const [value,label] of photos){const option=document.createElement("option");option.value=value;option.textContent=label;select.append(option);}
-    select.value=item.image||"";photoLabel.append(select);row.append(availability,photoLabel);
+    select.value=item.image||"";
+    const preview=document.createElement("img");preview.className="admin-photo-preview";preview.alt="Aperçu de la photo";preview.loading="lazy";preview.width=80;preview.height=80;
+    function updatePhoto(){const image=select.value||photoOptions.find(p=>p.key==="espresso")?.src;preview.src=image||"";preview.hidden=!image;}
+    select.addEventListener("change",updatePhoto);updatePhoto();
+    photoLabel.append(select,preview);row.append(availability,photoLabel);
     return row;
   }
   function updateSectionHeading(section) {
@@ -86,7 +91,9 @@
     if(busy) return;
     busy=true;save.disabled=true;addSection.disabled=true;status.textContent="Chargement…";
     try {
-      const response=await fetch("/api/admin/menu",{cache:"no-store"});
+      const [response,photosResponse]=await Promise.all([fetch("/api/admin/menu",{cache:"no-store"}),fetch("/product-photos.json",{cache:"no-store"})]);
+      if(!photosResponse.ok)throw new Error("Impossible de charger les photos.");
+      photoOptions=(await photosResponse.json()).photos;
       if(!response.ok) throw new Error(response.status===401?"Connectez-vous à nouveau pour accéder à la carte.":"Accès impossible. Seul le propriétaire peut modifier la carte.");
       const {menu,settings,revision:loadedRevision}=await response.json();
       orderNumber.value=settings.whatsapp;

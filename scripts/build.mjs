@@ -12,7 +12,8 @@ async function collect(directory, prefix = "") {
 }
 await collect("public");
 const seed = JSON.parse(await readFile("public/menu.json","utf8"));
+const photoCatalog = JSON.parse(await readFile("public/product-photos.json","utf8"));
 const worker = (await readFile("worker/auth.js","utf8"))+"\n"+await readFile("worker/index.js","utf8");
 await mkdir("dist/server",{recursive:true});
-await writeFile("dist/server/index.js","const assets = "+JSON.stringify(assets)+";\nconst seed = "+JSON.stringify(seed)+";\n"+worker);
+await writeFile("dist/server/index.js","const assets = "+JSON.stringify(assets)+";\nconst seed = "+JSON.stringify(seed)+";\nconst photoCatalog = "+JSON.stringify(photoCatalog)+";\n"+worker);
 console.log("Built Worker and "+Object.keys(assets).length+" bundled assets.");
